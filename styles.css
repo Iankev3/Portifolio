@@ -5,6 +5,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black !important;
+}
+
+nav 
+
 .navbar-brand {
     font-size: 40px !important ;
     font-family: Arial, Helvetica, sans-serif !important;
