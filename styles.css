@@ -7,7 +7,8 @@
 }
 
 body{
-    background-color: black !important;
+    background-image: url(download.jpeg);
+    background-size: 100% 100%;
 }
 
 nav {
@@ -15,18 +16,24 @@ nav {
 }
 
 .navbar-brand {
-    font-size: 55px !important ;
+    font-size: 60px !important ;
     font-family: Arial, Helvetica, sans-serif !important;
+    color: #ff0000 !important;
+    text-shadow: black 0.1em 0.1em 0.2em !important;
 }
+
+
 
 .nav-item {
     text-align: center !important;
-    font-size: 25px !important;
+    font-size: 30px !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .nav-link {
-    color: white !important;
+    color: #ff0000 !important;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navtrasition {
@@ -34,7 +41,7 @@ nav {
 }
 
 ul a:hover {
-    color: blue !important;
+    color: #a29c9b   !important;
     transition: 0.5s;
 }
 
@@ -47,49 +54,84 @@ section {
 
 .tex1 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 100px;
+    margin: 70px;
     display: flex;
     justify-content: center;
-    font-size: 70px;
-    color: white;
+    font-size: 95px;
+    color: #bf0603;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 i {
     font-size: 65px;
     color: white;
+
 }
 
 .card {
-    background: #5d737e !important;
+    background: #8d0801 !important;
     color: #ffff !important;
-    animation: 3s;
+    box-shadow: black 0.1em 0.1em 0.6em;
 }
 
 .card-text {
     color: white;
 }
 
-.fundo1 {
-    background-image: url(download.jpeg) ;
-    background-size: 100%;
-}
-
 .ptext {
     color: white;
     font-size: 25px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .potfi {
     color: white;
     font-size: 40px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .ptext2 {
     color: white;
     font-size: 25px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .htext {
-    color: white;
+    color: #bf0603;
     font-size: 60px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.hover div img {
+	-webkit-filter: blur(8px) !important;
+	filter: blur(9px) !important;
+	-webkit-transition: .2s ease-in-out !important;
+	transition: .4s ease-in-out !important;
+}
+.hover div:hover img {
+	-webkit-filter: blur(0) !important;
+	filter: blur(0) !important;
+}
+
+
+.card {
+    top: 0px;
+    background-color: #f2f8f9;
+    border-radius: 6px;
+    margin: 18px !important ;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 0px solid #f2f8f9;
+
+    &:hover {
+      transition: all 0.2s ease-out;
+      box-shadow: 2px 7px 9px rgba(38, 38, 38, 0.2);
+      border: 2px solid #cccccc;
+      background-color: white;
+    }
+  
+    &:hover:before {
+      transform: scale(3.15);
+    }
 }
