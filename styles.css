@@ -13,13 +13,14 @@ body{
 nav 
 
 .navbar-brand {
-    font-size: 40px !important ;
+    font-size: 65px !important ;
     font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .nav-item {
     text-align: center !important;
-    font-size: 22px !important;
+    font-size: 25px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
 .nav-link {
@@ -33,4 +34,15 @@ nav
 ul a:hover {
     color: blue !important;
     transition: 0.5s;
+}
+
+
+section {
+    width: 100%;
+    min-height: 90vh;
+}
+
+.fundo {
+    background-image: url(1000026662.jpg);
+    background-size: 100%;
 }
