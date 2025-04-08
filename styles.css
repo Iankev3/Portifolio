@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url(download.jpeg);
+    background-image: url(img/download.jpeg);
     background-size: 100% 100%;
 }
 
@@ -62,13 +62,23 @@ section {
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-i {
+i.icon {
     font-size: 65px;
     color: white;
 
 }
 
-.card {
+.imagem1 {
+    width: 700px !important;
+    height: 700px !important;
+    margin: px;
+    border-radius: 70px !important;
+    object-fit: !important;
+    object-position: center !important;
+
+}
+
+.cardani {
     background: #8d0801 !important;
     color: #ffff !important;
     box-shadow: black 0.1em 0.1em 0.6em;
@@ -98,12 +108,17 @@ i {
 
 .htext {
     color: #bf0603;
-    font-size: 60px;
+    font-size: 70px;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+.imagem1 {
+    border-radius: 3px solid red !important;
+}
+
+
 .hover div img {
-	-webkit-filter: blur(8px) !important;
+	-webkit-filter: blur(5px) !important;
 	filter: blur(9px) !important;
 	-webkit-transition: .2s ease-in-out !important;
 	transition: .4s ease-in-out !important;
@@ -114,7 +129,7 @@ i {
 }
 
 
-.card {
+ .cardani {
     top: 0px;
     background-color: #f2f8f9;
     border-radius: 6px;
@@ -134,4 +149,58 @@ i {
     &:hover:before {
       transform: scale(3.15);
     }
+}
+
+.projtext h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 95px;
+    color: #bf0603;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.cardcs  {
+    background-color: #3b383a !important ;
+    margin-top: 40px !important;
+}
+
+.title {
+    color: white !important;
+    font-size: 40px !important;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    margin-top: 100px;
+    align-items: end;
+    background-color: #8d0801;
+}
+
+.icons {
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+}
+
+.linkd:hover {
+    color: #0e76a8;
+    transition: all 0.2s;
+}
+
+.git:hover {
+    color: black;
+    transition: all 0.2s;
+}
+
+.what:hover {
+    color: green;
+    transition: all 0.2s;
+}
+
+.insta:hover {
+    color: #c13584;
+    transition: all 0.2s;
 }
