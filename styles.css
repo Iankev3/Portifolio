@@ -73,7 +73,6 @@ i.icon {
     height: 700px !important;
     margin: px;
     border-radius: 70px !important;
-    object-fit: !important;
     object-position: center !important;
 
 }
@@ -203,4 +202,8 @@ footer {
 .insta:hover {
     color: #c13584;
     transition: all 0.2s;
+}
+
+footer a  {
+    text-decoration: none;
 }
