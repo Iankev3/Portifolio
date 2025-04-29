@@ -2,11 +2,6 @@
 
 ao criar meu portfólio, abri novas portas e explorei áreas que nunca imaginei antes. Foi um processo de aprendizado e autodescoberta, onde pude explorar minha criatividade e habilidades de uma forma que nunca havia feito. Cada projeto desenvolvido é uma oportunidade de crescimento, e estou ansioso(a) para continuar essa jornada e ver onde ela pode me levar!
 
-
-#  Usadas:
-ao criar meu portfólio, abri novas portas e explorei áreas que nunca imaginei antes. Foi um processo de aprendizado e autodescoberta, onde pude explorar minha criatividade e habilidades de uma forma que nunca havia feito. Cada projeto desenvolvido é uma oportunidade de crescimento, e estou ansioso(a) para continuar essa jornada e ver onde ela pode me levar!
-
-
 # Tecnologias Usadas:
 
 - HTML
